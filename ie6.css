@@ -1,0 +1,42 @@
+body {background:#ffffff;background-image:none;padding:0;}
+.navbar {background:#333333;}
+.nav-collapse {width:auto;}
+.nav li {float:left; display:inline;margin-bottom:-2px;}
+	.nav li a {float:left; display: block; width:auto; padding: 7px 12px; margin:0; line-height:14px;}
+	.nav li a:hover {background-color:#ddd; text-decoration: none}
+.nav-tabs li.active {background:none; border:1px solid #ddd; border-color:#eeeeee #eeeeee #dddddd;}
+.tab-content .tab-pane {display:none;}
+.tab-content .tab-pane.active {display:block; background-color:transparent;}
+.row {margin:0;}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;margin:0 30px 0 0;}
+.last-child {margin-right:0;}
+
+/* FORMS */
+.input-text {display:inline-block; line-height:18px; height:18px; padding:4px; margin:0px; margin-bottom:9px; border: 1px solid #ccc; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.help-inline {display:block; line-height:18px; height:18px; padding:4px 0px 4px 5px;}
+
+label.checkbox {display: block; line-height:18px; height:18px; width:100%; padding-left:0px; margin: 0px 0px 9px -2px;}
+.input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:none}
+
+.form-inline label.checkbox {display: inline-block; line-height:18px; height:18px; width:auto; padding-left:0px; margin: 0px}
+.form-inline .input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:non; }
+.btn {margin-left:0px; padding:2px 8px;}		
+
+legend { width: auto; }	
+
+.form-horizontal .help-block { display: inline-block; margin-left: 3px;}
+.form-horizontal .control-label {float: left; display:inline-block; width: 140px; text-align:right; padding-top:5px;}
+.form-horizontal label.checkbox {display: inline-block; line-height:18px; height:18px; width:auto; padding-left:0px; margin: 0px 9px 9px 0px}
+.form-horizontal .input-checkbox {margin-left:-3px;}
+.form-horizontal .input-multiple {height: auto;}
+.form-horizontal .input-file {display:inline-block; line-height:24px; height:24px; width: 220px; padding:4px; }
+.btn-primary {margin-right: 4px;}
+
+.disabled {cursor: not-allowed;}
+.control-group.warning  label, .control-group.warning .help-block, .control-group.warning .help-inline {color: #C09853;}
+.control-group.error label, .control-group.error .help-block, .control-group.error .help-inline {color: #B94A48;}
+.control-group.success label, .control-group.success .help-block, .control-group.success .help-inline {color: #468847;}
+
+input.span1, input.span2, input.span3, input.span4, input.span5, input.span6, input.span7, input.span8, input.span9, input.span10, input.span11, input.span12,
+select.span1, select.span2, select.span3, select.span4, select.span5, select.span6, select.span7, select.span8, select.span9, select.span10, select.span11, select.span12  {float:left;display:inline-block;margin:0px;}
+/*.docs-input-sizes input, .docs-input-sizes select {display: block; float:none; margin:0px; margin:bottom: 9px; }*/
