@@ -42,3 +42,14 @@ select.span1, select.span2, select.span3, select.span4, select.span5, select.spa
 /*.docs-input-sizes input, .docs-input-sizes select {display: block; float:none; margin:0px; margin:bottom: 9px; }*/
 
 input.btn, a.btn, button.btn { height: auto, width: auto;}
+
+/* Icons */
+.icon-sprite {
+    background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
