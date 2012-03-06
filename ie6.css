@@ -40,3 +40,5 @@ legend { width: auto; }
 input.span1, input.span2, input.span3, input.span4, input.span5, input.span6, input.span7, input.span8, input.span9, input.span10, input.span11, input.span12,
 select.span1, select.span2, select.span3, select.span4, select.span5, select.span6, select.span7, select.span8, select.span9, select.span10, select.span11, select.span12  {float:left;display:inline-block;margin:0px;}
 /*.docs-input-sizes input, .docs-input-sizes select {display: block; float:none; margin:0px; margin:bottom: 9px; }*/
+
+input.btn, a.btn, button.btn { height: auto, width: auto;}
