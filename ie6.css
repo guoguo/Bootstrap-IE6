@@ -56,4 +56,7 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 }
 
 /* navbar */
-.dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929}
+.dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929;}
+
+/* Pagination */
+.pagination-first-child {border-left-width: 1px !important;}
