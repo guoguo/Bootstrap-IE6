@@ -50,7 +50,7 @@ label.radio {display: block; line-height:18px; height:18px; width:100%; padding-
 
 .form-inline label.checkbox {display: inline-block; line-height:18px; height:18px; width:auto; padding-left:0px; margin: 0px}
 .form-inline .input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:non; }
-.btn {margin-left:0px; padding:2px 8px;}		
+        
 
 legend { width: auto; }	
 
@@ -84,8 +84,8 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 .pagination-first-child {border-left-width: 1px !important;}
 
 /* Images */
-ul.thumbnails {margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
-.thumbnails li {float: left; margin: 0 0 18px 20px;}
+ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
+.thumbnails li {float: left; margin: 0 0 18px 20px;  background-color:yellow;}
 
 /* Tooltips */
 .tooltip.top .tooltip-arrow, .tooltip.right .tooltip-arrow, .tooltip.bottom .tooltip-arrow, .tooltip.left .tooltip-arrow {display:none}
@@ -97,4 +97,7 @@ ul.thumbnails {margin-left:-20px; float:none; display:inline-block; zoom:1; clea
 .popover.top .arrow,  .popover.right .arrow,  .popover.bottom .arrow,  .popover.left .arrow {display:none}
 .popover.top{margin-top:-7px;}
 .popover.bottom{margin-top:7px;}
-    
+
+/* Buttons */
+.btn {margin-left:0px; padding:2px 8px;}
+.btn:hover { opacity:.4;filter:alpha(opacity=40); background-color: transparent; background-position: 0 0; color: #000000}
