@@ -1,17 +1,42 @@
 body {background:#ffffff;background-image:none;padding:0;}
-.navbar {background:#333333;}
+
+/* Navbar */
 .nav-collapse {width:auto;}
-.nav li {float:left; display:inline;margin-bottom:-2px;}
-    .nav li a {float:left; display: block; width:auto; padding: 7px 12px; margin:0; line-height:14px;}
-    .nav li a:hover {background-color:#ddd; text-decoration: none}
-.nav-tabs li.active {background:none; border:1px solid #ddd; border-color:#eeeeee #eeeeee #dddddd;}
+.nav li a {display: block;}
+.navbar .nav .active  a, .navbar .nav .active  a:hover {background-color: rgba(0, 0, 0, 0.5);color: #FFFFFF;text-decoration: none;}
+    .navbar .nav li {display: block; float: left;}
+        .navbar .nav li  a {float: none; line-height: 19px; padding: 10px 10px 11px;}
+        .navbar .nav li a:hover {background-color:transparent;color:#ffffff;text-decoration:none;}
+
+        .navbar .nav .active a, 
+            .navbar .nav .active a:hover {color:#ffffff;text-decoration:none;background-color:#222222;background-color:rgba(0, 0, 0, 0.5);}
+        .navbar .nav .open .dropdown-toggle, 
+            .navbar .nav .active .dropdown-toggle,
+            .navbar .nav .open.active .dropdown-toggle{ background-color:transparent;}
+        .navbar .nav .active .dropdown-toggle:hover {color:#ffffff;}
+
+    .dropdown .dropdown-toggle {margin-bottom:1px; position: relative; top: 2px; left:0px;}
+    
+    .dropdown-menu li {width:100%;}
+        .dropdown-menu li a {width:100%; padding 3px 0px 3px 5px;}
+        .dropdown-menu li a:hover, 
+        .dropdown-menu .active a, 
+        .dropdown-menu .active a:hover {background-color: #0088CC;color: #FFFFFF;text-decoration: none;}
+
+/* TABS */
+.nav-tabs li { float:left; display:inline; margin-bottom:-2px; }
+    .nav-tabs li a { padding-bottom: 9px; padding-top: 9px; line-height: 14px; margin-right: 2px; padding-left: 12px; padding-right: 12px; }
+        .nav-tabs li.active { background:none; border:1px solid #ddd; border-color:#eeeeee #eeeeee #dddddd;}
+
 .tab-content .tab-pane {display:none;}
 .tab-content .tab-pane.active {display:block; background-color:transparent;}
+               
 
-/* Original hacks */
+/* Original hacks (edited) */
 .row {margin:0; margin-left:-20px;}
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;}
 .last-child {margin-right:0;}
+.margin-left-20 {float: left; margin-left: 20px;}
 
 /* FORMS */
 .input-text {display:inline-block; line-height:18px; height:18px; padding:4px; margin:0px; margin-bottom:9px; border: 1px solid #ccc; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;}
@@ -50,16 +75,7 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 .input-prepend input {margin-top:1px;}
 
 /* Icons */
-.icon-sprite {
-    background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 14px;
-    line-height: 14px;
-    vertical-align: text-top;
-    width: 14px;
-    padding-left: 3px;
-}
+.icon-sprite {background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");background-repeat: no-repeat;display: inline-block;height: 14px;line-height: 14px;vertical-align: text-top;width: 14px;padding-left: 3px;}
 
 /* navbar */
 .dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929}
@@ -70,7 +86,4 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 /* Images */
 ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
 .thumbnails li {float: left; margin: 0 0 18px 20px;  background-color:yellow;}
-
-
-/* All spans */
-.margin-left-20 {float: left; margin-left: 20px;}
+    
