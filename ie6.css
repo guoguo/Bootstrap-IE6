@@ -2,13 +2,15 @@ body {background:#ffffff;background-image:none;padding:0;}
 .navbar {background:#333333;}
 .nav-collapse {width:auto;}
 .nav li {float:left; display:inline;margin-bottom:-2px;}
-	.nav li a {float:left; display: block; width:auto; padding: 7px 12px; margin:0; line-height:14px;}
-	.nav li a:hover {background-color:#ddd; text-decoration: none}
+    .nav li a {float:left; display: block; width:auto; padding: 7px 12px; margin:0; line-height:14px;}
+    .nav li a:hover {background-color:#ddd; text-decoration: none}
 .nav-tabs li.active {background:none; border:1px solid #ddd; border-color:#eeeeee #eeeeee #dddddd;}
 .tab-content .tab-pane {display:none;}
 .tab-content .tab-pane.active {display:block; background-color:transparent;}
-.row {margin:0;}
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;margin:0 30px 0 0;}
+
+/* Original hacks */
+.row {margin:0; margin-left:-20px;}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;}
 .last-child {margin-right:0;}
 
 /* FORMS */
@@ -17,6 +19,9 @@ body {background:#ffffff;background-image:none;padding:0;}
 
 label.checkbox {display: block; line-height:18px; height:18px; width:100%; padding-left:0px; margin: 0px 0px 9px -2px;}
 .input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:none}
+
+label.radio {display: block; line-height:18px; height:18px; width:100%; padding-left:0px; margin: 0px 0px 9px -2px;}
+.input-radio {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:none}
 
 .form-inline label.checkbox {display: inline-block; line-height:18px; height:18px; width:auto; padding-left:0px; margin: 0px}
 .form-inline .input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:non; }
@@ -42,6 +47,7 @@ select.span1, select.span2, select.span3, select.span4, select.span5, select.spa
 /*.docs-input-sizes input, .docs-input-sizes select {display: block; float:none; margin:0px; margin:bottom: 9px; }*/
 
 input.btn, a.btn, button.btn { height: auto, width: auto;}
+.input-prepend input {margin-top:1px;}
 
 /* Icons */
 .icon-sprite {
@@ -56,7 +62,15 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 }
 
 /* navbar */
-.dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929;}
+.dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929}
 
 /* Pagination */
 .pagination-first-child {border-left-width: 1px !important;}
+
+/* Images */
+ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
+.thumbnails li {float: left; margin: 0 0 18px 20px;  background-color:yellow;}
+
+
+/* All spans */
+.margin-left-20 {float: left; margin-left: 20px;}
