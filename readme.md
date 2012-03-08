@@ -11,13 +11,13 @@ Make sure when using this to use conditional IE statements in your HTML, eg:
 
 
 Or you could use jquery to determine what browser/version for the javascript hacks:
-'
+`
 $(function() {
 	if ($.browser.msie && parseInt($.browser.version, 10) === 6) {
 		// ie6 hacks here
 	}
 });
-'
+`
 
 ###Notes: Currently the glyphicons-halflings.png sprite is hardcoded in the css, change this file location as required
 
