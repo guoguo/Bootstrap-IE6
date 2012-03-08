@@ -4,7 +4,7 @@ Based on the initial work of Jonathon Joyce (http://www.jonathonjoyce.co.uk/2012
 
 Make sure when using this to use conditional IE statements in your HTML, eg:
 '
-&lt!--[if IE 6]&gt;    
+&lt;!--[if IE 6]&gt;    
 	<link href="ie6.min.css" rel="stylesheet">
 	<script src="ie6.min.js"></script>
 &lt;![endif]--&gt;
