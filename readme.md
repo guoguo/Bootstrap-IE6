@@ -4,18 +4,25 @@ Based on the initial work of Jonathon Joyce (http://www.jonathonjoyce.co.uk/2012
 
 
 Make sure when using this to use conditional IE statments in your HTML, eg:
+```javascript
 <!--[if IE 6]>    
 	<link href="ie6.min.css" rel="stylesheet">
 	<script src="ie6.min.js"></script>
 <![endif]-->
+```
 
-
-Or you could use jquery to determain what browser/version for the javascript hacks:
+Or you could use jquery to determine what browser/version for the javascript hacks:
+```javascript
 $(function() {
 	if ($.browser.msie && parseInt($.browser.version, 10) === 6) {
 		// ie6 hacks here
 	}
 });
+```
+##Notes: Currently the glyphicons-halflings.png sprite is hardcoded in the css, change this file location as required
+
+
+
 
 Copyright Twitter 2011
 http://twitter.github.com/bootstrap/index.html

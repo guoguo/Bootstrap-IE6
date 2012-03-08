@@ -84,8 +84,8 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 .pagination-first-child {border-left-width: 1px !important;}
 
 /* Images */
-ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
-.thumbnails li {float: left; margin: 0 0 18px 20px;  background-color:yellow;}
+ul.thumbnails {margin-left:-20px; float:none; display:inline-block; zoom:1; clear:both;}
+.thumbnails li {float: left; margin: 0 0 18px 20px;}
 
 /* Tooltips */
 .tooltip.top .tooltip-arrow, .tooltip.right .tooltip-arrow, .tooltip.bottom .tooltip-arrow, .tooltip.left .tooltip-arrow {display:none}
