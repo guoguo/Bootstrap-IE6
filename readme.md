@@ -4,10 +4,10 @@ Based on the initial work of Jonathon Joyce (http://www.jonathonjoyce.co.uk/2012
 
 Make sure when using this to use conditional IE statements in your HTML, eg:
 `<pre>
-<!--[if IE 6]>    
+&lt!--[if IE 6]&gt;    
 	<link href="ie6.min.css" rel="stylesheet">
 	<script src="ie6.min.js"></script>
-<![endif]-->
+&lt;![endif]--&gt;
 </pre>
 `
 
