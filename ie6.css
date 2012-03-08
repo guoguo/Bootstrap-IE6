@@ -103,3 +103,4 @@ ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inli
 
 /* Modal */
 .modal {position: relative; filter:alpha(opacity=99); top: 55%}
+    .modal-header a.close {cursor: pointer}
