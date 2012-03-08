@@ -6,8 +6,8 @@ Make sure when using this to use conditional IE statements in your HTML, eg:
 
 &lt;!--[if IE 6]&gt;   
  
-	&lt;link href="ie6.min.css" rel="stylesheet"&gt;
-	&lt;script src="ie6.min.js"&gt;&lt;/script&gt;
+	<link href="ie6.min.css" rel="stylesheet>
+	<script src="ie6.min.js">&lt;/script>
 	
 &lt;![endif]--&gt;
 
