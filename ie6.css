@@ -1,4 +1,10 @@
-body {background:#ffffff;background-image:none;padding:0;}
+body {background:#ffffff; background-image:none; padding:0;}
+               
+/* Original hacks by Jonathon Joyce (edited) */
+.row {margin:0; margin-left:-20px;}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;}
+.last-child {margin-right:0;}
+.margin-left-20 {float: left; margin-left: 20px;}
 
 /* Navbar */
 .nav-collapse {width:auto;}
@@ -23,7 +29,7 @@ body {background:#ffffff;background-image:none;padding:0;}
         .dropdown-menu .active a, 
         .dropdown-menu .active a:hover {background-color: #0088CC;color: #FFFFFF;text-decoration: none;}
 
-/* TABS */
+/* Tabs */
 .nav-tabs li { float:left; display:inline; margin-bottom:-2px; }
     .nav-tabs li a { padding-bottom: 9px; padding-top: 9px; line-height: 14px; margin-right: 2px; padding-left: 12px; padding-right: 12px; }
         .nav-tabs li.active { background:none; border:1px solid #ddd; border-color:#eeeeee #eeeeee #dddddd;}
@@ -32,13 +38,7 @@ body {background:#ffffff;background-image:none;padding:0;}
 .tab-content .tab-pane.active {display:block; background-color:transparent;}
                
 
-/* Original hacks (edited) */
-.row {margin:0; margin-left:-20px;}
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12  {float:left;display:inline;}
-.last-child {margin-right:0;}
-.margin-left-20 {float: left; margin-left: 20px;}
-
-/* FORMS */
+/* Forms */
 .input-text {display:inline-block; line-height:18px; height:18px; padding:4px; margin:0px; margin-bottom:9px; border: 1px solid #ccc; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;}
 .help-inline {display:block; line-height:18px; height:18px; padding:4px 0px 4px 5px;}
 
@@ -50,7 +50,6 @@ label.radio {display: block; line-height:18px; height:18px; width:100%; padding-
 
 .form-inline label.checkbox {display: inline-block; line-height:18px; height:18px; width:auto; padding-left:0px; margin: 0px}
 .form-inline .input-checkbox {width:auto; float:left; display: inline-block; padding:0px; margin:0px; height:auto; border:non; }
-        
 
 legend { width: auto; }	
 
@@ -77,7 +76,7 @@ input.btn, a.btn, button.btn { height: auto, width: auto;}
 /* Icons */
 .icon-sprite {background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");background-repeat: no-repeat;display: inline-block;height: 14px;line-height: 14px;vertical-align: text-top;width: 14px;padding-left: 3px;}
 
-/* navbar */
+/* Navbar */
 .dropdown .caret {font-size:1px; height: 2px; background: none; background-color: #292929; color: #292929}
 
 /* Pagination */
@@ -101,3 +100,6 @@ ul.thumbnails {background-color:red; margin-left:-20px; float:none; display:inli
 /* Buttons */
 .btn {margin-left:0px; padding:2px 8px;}
 .btn:hover { opacity:.4;filter:alpha(opacity=40); background-color: transparent; background-position: 0 0; color: #000000}
+
+/* Modal */
+.modal {position: relative; filter:alpha(opacity=99); top: 55%}
