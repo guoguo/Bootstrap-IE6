@@ -3,11 +3,12 @@
 Based on the initial work of Jonathon Joyce (http://www.jonathonjoyce.co.uk/2012/02/02/twitter-bootstrap2-ie-compatibility-fixes/)
 
 Make sure when using this to use conditional IE statements in your HTML, eg:
-`
+`<pre>
 <!--[if IE 6]>    
 	<link href="ie6.min.css" rel="stylesheet">
 	<script src="ie6.min.js"></script>
 <![endif]-->
+</pre>
 `
 
 Or you could use jquery to determine what browser/version for the javascript hacks:
