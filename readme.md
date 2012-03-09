@@ -2,26 +2,21 @@
 
 This work is based on the initial work of Jonathon Joyce (http://www.jonathonjoyce.co.uk/2012/02/02/twitter-bootstrap2-ie-compatibility-fixes/)
 
-Make sure when using this to use conditional IE statements in your HTML, eg:
+Make sure when using this to use conditional IE statements in your HTML (just BEFORE the &lt;/head&gt; tag), eg:
 
 &lt;!--[if IE 6]&gt;   
  
 	<link href="ie6.min.css" rel="stylesheet>
-	<script src="ie6.min.js"></script>
 	
 &lt;![endif]--&gt;
 
 
-Or you could use jquery to determine what browser/version for the javascript hacks:
+Again, use a browser conditional statement to include the ie6.min.js if IE or add the following after all the JS on the page, ideally just before the </body> tag:
 `
-$(function() {
-	if ($.browser.msie && parseInt($.browser.version, 10) === 6) {
-		// ie6 hacks here
-	}
-});
+<script type="text/javascript">
+$(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}})
+</script>
 `
-
-**Notes:** Currently the glyphicons-halflings.png sprite is hardcoded in the css, change this file location as required
 
 Copyright Twitter 2011
 http://twitter.github.com/bootstrap/index.html
