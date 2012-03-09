@@ -18,5 +18,8 @@ $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[
 &lt;/script&gt;
 
 
+There is a sample page - sample-typeahead.html
+
+
 Copyright Twitter 2011
 http://twitter.github.com/bootstrap/index.html
