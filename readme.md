@@ -11,12 +11,12 @@ Make sure when using this to use conditional IE statements in your HTML (just BE
 &lt;![endif]--&gt;
 
 
-Again, use a browser conditional statement to include the ie6.min.js if IE or add the following after all the JS on the page, ideally just before the </body> tag:
-`
-<script type="text/javascript">
+Again, use a browser conditional statement to include the ie6.min.js if IE or add the following after all the JS on the page, ideally just before the &lt;/body&gt; tag:
+
+&lt;script type="text/javascript"&gt;
 $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}})
-</script>
-`
+&lt;/script&gt;
+
 
 Copyright Twitter 2011
 http://twitter.github.com/bootstrap/index.html
