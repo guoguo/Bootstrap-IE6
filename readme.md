@@ -6,7 +6,7 @@ Make sure when using this to use conditional IE statements in your HTML (just BE
 
 &lt;!--[if IE 6]&gt;   
  
-	<link href="ie6.min.css" rel="stylesheet>
+	<link href="ie6.min.css" rel="stylesheet">
 	
 &lt;![endif]--&gt;
 
@@ -20,6 +20,7 @@ $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[
 
 There is a sample page - sample-typeahead.html
 
+Sharry @ Empowering Communities
 
 Copyright Twitter 2011
-http://twitter.github.com/bootstrap/index.html
+http://twitter.github.com/bootstrap/
