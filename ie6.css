@@ -24,7 +24,7 @@ body {background:#ffffff; background-image:none; padding:0;}
     .dropdown .dropdown-toggle {margin-bottom:1px; position: relative; top: 2px; left:0px;}
     
     .dropdown-menu li {width:100%;}
-        .dropdown-menu li a {width:100%; padding 3px 0px 3px 5px;}
+        .dropdown-menu li a {width:100%; padding: 3px 0px 3px 5px;}
         .dropdown-menu li a:hover, 
         .dropdown-menu .active a, 
         .dropdown-menu .active a:hover {background-color: #0088CC;color: #FFFFFF;text-decoration: none;}
